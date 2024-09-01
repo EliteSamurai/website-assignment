@@ -158,6 +158,14 @@ form button {
     .gallery-image {
         width: 45%;
     }
+
+    .hero-text h1 {
+        font-size: 40px;
+    }
+
+    .hero-text h2 {
+        font-size: 25px;
+    }
 }
 
 @media (max-width: 568px) {
@@ -167,5 +175,26 @@ form button {
 
     .gallery-image {
         width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 30px;
+    }
+
+    .hero-text h2 {
+        font-size: 20px;
+    }
+
+    .hero {
+        height: 50vh;
+    }
+
+    form {
+        margin: 0 0 20px 0;
+    }
+
+    .about {
+        font-size: 15px;
+        margin-top: 20px;
     }
 }
